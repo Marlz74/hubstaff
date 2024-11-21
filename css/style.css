@@ -42,6 +42,10 @@ body{
     justify-content: center;
 }
 
+.jusitfy-right{
+    justify-content: right;
+}
+
 .justify-between{
     justify-content: space-between;
 }
@@ -413,7 +417,7 @@ form.signup label{
     margin-bottom: 5px;
 } 
 
-.form-input input{
+:is(.form-input) input,select{
     width: 100%;
     border: none;
     outline: none;
@@ -433,7 +437,7 @@ form.signup label{
     cursor: pointer;
 }
 
-form.signup button{
+:is(form.signup, form.signin) button{
     display: block;
     width: 100%;
     border: none;
@@ -471,3 +475,91 @@ form.signup button:hover{
         width: 95%;
     }
 }
+
+body.signin .signin1{
+    width: 50%;
+    min-height: 100vh;
+}
+
+body.signin .signin1.left{
+    background: linear-gradient(90deg, var(--deep-navy), var(--light-blue));
+    color: var(--white);
+    padding: 3rem;
+}
+
+body.signin .signin1.left h1{
+    max-width: 30rem;
+    line-height: 3.7rem;
+}
+
+body.signin .signin1.left .ratings{
+    position: absolute;
+    bottom: 7rem;
+}
+
+body.signin .signin1.left .rates::before{
+    height: 3px;
+    background-color: var(--white);
+    width: 100%;
+    top: -3rem;
+    content: '';
+    position: absolute;
+}
+body.signin .signin1.left .rates{
+ width: max-content;
+ margin-bottom: 2rem;
+}
+body.signin .signin1.left .rates .fas{
+    color: var(--light-green);
+    font-size: 1.2rem;
+}
+
+body.signin .signin1.left .ratings p{
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+
+.signin-form-wrapper{
+    min-height: 80vh;
+
+}
+form.signin{
+    width: 60%;
+    margin: 0 auto;
+}
+
+form.signin input{
+    border: 1px solid var(--deep-navy);
+}
+
+form.signin button{
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:1250px){
+    body.signin .signin1.left {
+        width: 40%;
+        min-height: 100vh;
+    }
+    body.signin .signin1.right {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    body.signin .signin1.left {
+        display: none;
+    }
+    body.signin .signin1.right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:613px){
+    form.signin {
+        width: 95%;
+    }
+}
+
+

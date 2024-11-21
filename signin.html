@@ -5,14 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sign In WorkScope || Productivity at Its Best</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <lin rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo.png" type="image/png">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="signin" >
+    <div class="flex signin-wrapper gap-1">
+        <div class="signin1 left relative">
+            <h1>Welcome to our community</h1>
+
+            <div class="ratings">
+                <div class="rates relative flex" style="gap: 10px;" >
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Hubstaff allows us to focus on what really matters. We now know more about our business and spend less time managing it, helping us be a better company.
+                    organization logo </p>
+                    <div class="name">
+                        <h4>John Parker</h4>
+                        <small>CEO at LinkUp</small>
+                    </div>
+            </div>
+
+        </div>
+        <div class="signin1 right">
+            <div class="flex jusitfy-right">
+                <img src="./img/logo.png" class="logo" alt="">
+            </div>
+            <div class="flex-center signin-form-wrapper">
+
+                <form action="" method="post" class="signin ">
+                    
+                        <h2  >Sign in to WorkScope</h2>
+                        <div class="form-input mt-2">
+                            <label for="email">Work email</label>
+                            <input type="email" placeholder="Work email" name="email" >
+                        </div>
+        
+                        <div class="form-input">
+                            <label for="password">Password</label>
+                            <div class="relative">
+                                <input type="password" name="password" placeholder="Password" >
+                                <i class="fas fa-eye-slash password-toggle "></i>
+                             </div>
+                        </div>
+                        <button  >Sign in</button>
+                        <hr>
+                        <p class="mt-3" >Don't have an account? <a href="./signup.html" class="color-highlight" style="text-decoration: underline;" >Get started?</a></p>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
