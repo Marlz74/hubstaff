@@ -22,9 +22,7 @@ body{
     background-color: var(--deep-navy);
     color: var(--white);
 }
-.relative{
-    position: relative;
-}
+
 
 nav .links a{
     border: 1px solid var(--light-green);
@@ -41,16 +39,7 @@ nav .links a:hover{
 .hero{
     min-height: 70vh;
 }
-h1{
-    font-size: 3rem;
-    font-family: 'Montserrat';
-    line-height: 5rem;
-}
-h2{
-    font-family: 'Montserrat';
-    font-size: 2rem;
-    line-height: 4rem;
-}
+
 
 h4{
     font-family: 'Montserrat';
@@ -110,9 +99,7 @@ a.cta:hover {
     z-index: 1;
 }
 
-.color-highlight{
-    color: var(--light-blue);
-}
+
 
 .partners-logo{
     gap: 1rem;
@@ -217,13 +204,6 @@ h4.poppins{
     font-weight: bold;
 }
 
-.color-highlight2{
-    color: var(--sea-green);
-}
-
-.color-highlight3{
-    color: var(--white);
-}
 
 footer{
     background-color: var(--deep-navy);
@@ -398,9 +378,6 @@ form.signup button:hover{
     text-align: center;
 }
 
-.hide{
-    display: none !important;
-}
 
 @media screen and (max-width:503px){
     form.signup{

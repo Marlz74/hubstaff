@@ -64,85 +64,24 @@
 
     <section id="menu" >
         <div class="wrapper flex-center gap-2 menu flex-wrap">
-            <a href="" class="active" >
+            <a href="./index.html" >
                 Create project
             </a>
-            <a href="./invite.html">Invite your team</a>
+            <a href="./invite.html" class="active" >Invite your team</a>
             <a href="./members.html">View members</a>
         </div>
     </section>
 
     <section id="projects" >
         <div class="wrapper">
-            <h2 class="" >Projects</h2>
-            <div class="filter flex justify-between items-center gap-1 flex-wrap">
-                <div class="search-wrapper flex-center" style="gap: 5px;" >
-                    <i class="fa fa-search search" ></i>
-                    <input type="text" placeholder="Search projects" name="search" >
-                </div>
-                <div class="">
-                    <a href="" class="block primary-btn" >Add project</a>
-                </div>
-            </div>
+            <h2 class="" >Add team members</h2>
+            
 
-            <div class="table-container mt-3 ">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Members</th>
-                            <th>Budget</th>
-                            <th>Status</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Dollarz</td>
-                            <td>6</td>
-                            <td>$ 79,000</td>
-                            <td>Completed</td>
-                            <td class="relative">
-                                <span class="block pointer">:</span>
-                                <div class="dropdown">
-                                    <a href="">View project</a>
-                                    <a href="">Manage members</a>
-                                </div>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Dollarz</td>
-                            <td>6</td>
-                            <td>$ 79,000</td>
-                            <td>Progress</td>
-                            <td class="relative" >
-                                <span class="block pointer" >:</span>
-                                <div class="dropdown">
-                                    <a href="">View project</a>
-                                    <a href="">Manage members</a>
-                                </div>
+            <div class="card invite-card mt-3 ">
+                <p class="text-center" >Invite your team so they can start tracking time. You can set their role, assign them to projects, and even set weekly limits, bill rates, and pay rates.</p>
 
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>Dollarz</td>
-                            <td>6</td>
-                            <td>$ 79,000</td>
-                            <td>Paused</td>
-                            <td class="relative" >
-                                <span class="block pointer" >:</span>
-                                <div class="dropdown">
-                                    <a href="">View project</a>
-                                    <a href="">Manage members</a>
-                                </div>
-
-                            </td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
+                <textarea name="emails" id="" class="block mt-1" placeholder="Enter email address seperated by comma" ></textarea>
+                <button class="primary-btn block" >Send</button>
             </div>
         </div>
     </section>

@@ -33,6 +33,18 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+h1{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    line-height: 5rem;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
 
 a{
     text-decoration: none;
@@ -51,6 +63,10 @@ a{
     margin-top: 2rem;
 }
 
+.mt-3{
+    margin-top: 3rem;
+}
+
 
 .wrapper{
     width: 1400px;
@@ -65,3 +81,36 @@ a{
     gap: 2rem;
 }
 
+.relative{
+    position: relative;
+}
+
+.color-highlight{
+    color: var(--light-blue);
+}
+
+
+.color-highlight2{
+    color: var(--sea-green);
+}
+
+.color-highlight3{
+    color: var(--white);
+}
+
+.block{
+    display: block;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.hide{
+    display: none !important;
+}
