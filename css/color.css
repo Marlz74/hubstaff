@@ -1,0 +1,13 @@
+:root{
+    /* for CTA button */
+    --light-blue :#61eafd; 
+    /* background to create contrast */
+    --deep-navy:#051922;
+    /* for interactive element / CTA / hover effects*/
+    --sea-green:#69f86b;
+    --light-green:#62f7d9;
+    --white:#ffffff;
+    --gray-main:#253053;
+    --divider:#cccccc;
+    --light-gray:#f2f8ff;
+}

@@ -4,20 +4,11 @@
     box-sizing: border-box;
 }
 @import url("./font.css");
+@import url("./color.css");
+@import url("./module.css");
 
-:root{
-    /* for CTA button */
-    --light-blue :#61eafd; 
-    /* background to create contrast */
-    --deep-navy:#051922;
-    /* for interactive element / CTA / hover effects*/
-    --sea-green:#69f86b;
-    --light-green:#62f7d9;
-    --white:#ffffff;
-    --gray-main:#253053;
-    --divider:#cccccc;
-    --light-gray:#f2f8ff;
-}
+
+
 .section{
     padding: 5rem 0;
 }
@@ -26,53 +17,11 @@ body{
     font-size: 17px;
 }
 
-.flex{
-    display: flex;
-}
-.flex-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.items-center{
-    align-items: center;
-}
-
-.justify-center{
-    justify-content: center;
-}
-
-.jusitfy-right{
-    justify-content: right;
-}
-
-.justify-between{
-    justify-content: space-between;
-}
 .wrapper{
     width: 1400px;
     margin: 0 auto;                        
 }
-.flex-column{
-    flex-direction: column;
-}
-.logo{
-    width: 80px;
-    height: 80px;
-}
 
-.flex-wrap{
-    flex-wrap: wrap;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-.text-center{
-    text-align: center;
-}
 #hero{
     background-color: var(--deep-navy);
     color: var(--white);
@@ -110,13 +59,7 @@ h2{
 h4{
     font-family: 'Montserrat';
 }
-.mt-1{
-    margin-top: 1rem;
-}
 
-.mt-2{
-    margin-top: 2rem;
-}
 
 #hero p{
     line-height: 2rem;
