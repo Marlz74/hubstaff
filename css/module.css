@@ -50,3 +50,18 @@ a{
 .mt-2{
     margin-top: 2rem;
 }
+
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;                        
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
